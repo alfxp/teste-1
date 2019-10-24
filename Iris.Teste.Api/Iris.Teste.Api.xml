@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Iris.Teste.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Iris.Teste.Api.Controllers.UserController.Get(System.Int32,System.Int32)">
+            <summary>
+            Efetua consulta paginada dos usuários
+            </summary>
+            <param name="page">Página atual</param>
+            <param name="size">Quantidade de registros por página</param>
+            <returns>Lista paginada de usuários</returns>
+        </member>
+        <member name="M:Iris.Teste.Api.Controllers.UserController.Get(System.String)">
+            <summary>
+            Efetua consulta de um usuário pelo código
+            </summary>
+            <param name="id">Código do usuário</param>
+            <returns>Usuário encontrado</returns>
+        </member>
+        <member name="M:Iris.Teste.Api.Controllers.UserController.Post(Iris.Teste.Domain.DataTransferObjects.UserDto)">
+            <summary>
+            Efetua o cadastro de um novo usuário
+            </summary>
+            <param name="user">Dados do usuário</param>
+        </member>
+        <member name="M:Iris.Teste.Api.Controllers.UserController.Put(Iris.Teste.Domain.DataTransferObjects.UserDto)">
+            <summary>
+            Efetua a atualização de um usuário
+            </summary>
+            <param name="user">Dados do usuário</param>
+        </member>
+        <member name="M:Iris.Teste.Api.Controllers.UserController.Delete(System.String)">
+            <summary>
+            Efetua a exclusão de um usuário pelo código
+            </summary>
+            <param name="id">Código do usuário</param>
+        </member>
+    </members>
+</doc>

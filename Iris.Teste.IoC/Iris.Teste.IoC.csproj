@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.2.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.9.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Iris.Crosscutting\Iris.Crosscutting.Bus\Iris.Crosscutting.Bus.csproj" />
+    <ProjectReference Include="..\..\Iris.Crosscutting\Iris.Crosscutting.Domain\Iris.Crosscutting.Domain.csproj" />
+    <ProjectReference Include="..\Iris.Teste.Domain\Iris.Teste.Domain.csproj" />
+    <ProjectReference Include="..\Iris.Teste.Infrastructure\Iris.Teste.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
